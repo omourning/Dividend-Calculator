@@ -7,7 +7,7 @@ A program that analyzes stock data to find stocks that have the highest dividend
 While trying to request information using the yahooFinance python library, there were some problems loading the responses. The main issue when trying to load the responses was attempting to find yearly percent change. The causes associated with this problem were, stocks being too new, stocks not listed in yahooFinance, or stocks only listing year to date as an option. The effects of this problem were comparing ytd percent changes with trailing 12 month percent changes. When getting rid of stocks that had less than 15% growth it was possible that well/underperforming were incorrectly affected based on a "trailing 12 month percent change" criteria. This would mean that the only condition where the difference between ytd and the trailing 12 month is negligible is at the end of the calendar year.
 
 ## Resources Used
-Stock List: https://www.tradingview.com/ 
-Stock Data Library: https://pypi.org/project/yfinance/ 
-Data Frame Library: https://pandas.pydata.org/ 
-Data Ploting Library: https://matplotlib.org/
+1. Stock List: https://www.tradingview.com/ 
+2. Stock Data Library: https://pypi.org/project/yfinance/ 
+3. Data Frame Library: https://pandas.pydata.org/ 
+4. Data Ploting Library: https://matplotlib.org/
